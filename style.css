@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: #e5e5e5;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #A6BC09;
+
+}
+
+header a {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+main {
+    background-color: #CCEA8D;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+section.imagem {
+    background-image: url('imagem/escritorio.jpg');
+
+    height: 80vh;
+    width: 90vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+div.escritorio {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -8%);
+    padding: 20px;
+
+    line-height: 2em;
+    color: white;
+    text-align: center;
+}
+
+div.escritorio p {
+    font-size: 16px;
+    font-weight: bolder;
+
+    color: goldenrod;
+    text-shadow: 2px 2px 2px black;
+}
+
+div.escritorio h1 {
+    font-size: 34px;
+    color: goldenrod;
+    text-shadow: 2px 2px 5px black;
+}
+
+div.escritorio a {
+    text-decoration: none;
+    background-color: #01415B;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #A6BC09;
+    line-height: 3em;
+}
+
+div.escritorio a:hover {
+    background-color: black;
+}
+
+section.conteudo {
+    text-align: center;
+}
+
+section.conteudo div img {
+    padding-top: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+section.conteudo div h1 {
+    padding-top: 40px;
+}
+
+section.conteudo div p {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px;
+}
+
+section.texto {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #A6BC09;
+    padding: 20px;
+    margin: auto;
+    border: 3px solid #01415B;
+
+    line-height: 2em;
+}
+
+section.flex {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+
+    padding-bottom: 50PX;
+
+}
+
+section.flex div {
+    flex: 1 1 200px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid #01415B;
+    padding: 10px;
+}
+
+section.flex div:hover {
+    background-color: #019587;
+}
+
+
+section.flex div a {
+    font-size: 80px;
+    color: black;
+    text-align: center;
+}
+
+section.flex div h2 {
+    line-height: 2em;
+}
+
+section.tec01 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+
+    padding-top: 30px;
+    
+}
+
+section.tec01 div {
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+section.tec01 div img {
+    max-width: 100%;
+
+    width: 500px;
+    height: 400px;
+}
+
+div#idtec01 {
+    text-align: justify;
+    text-indent: 20px;
+
+}
+
+div#idtec01 h1 {
+    text-align: center;
+    line-height: 2em;
+}
+
+section.final {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+section.final div {
+    flex: 1 1 200px;
+    margin: 10px;
+
+    line-height: 2.5em;
+}
+
+section.final div h1 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
+
+footer{
+    background-color: #CCEA8D;
+    color: #01415B;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 12px;
+}
